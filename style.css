@@ -2,3 +2,108 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-image: url("cinema.jpg");
+}
+
+.container {
+    border: 5px solid black;
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 100%;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    background-color: black;
+    color: silver;
+}
+
+.banner {
+    padding: 0;
+    margin-bottom: -4px;
+}
+
+
+div i {
+    position: relative;
+    top: -1px;
+    padding-left: 10px;
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -13px;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.title_page {
+    text-align: center;
+}
+
+.page {
+    border: 1px solid black;
+    width: 60%;
+}
+
+.subpage {
+    float: right;
+    border: 1px solid black;
+    width: 30%;
+    margin: 0 30px;
+    position: relative;
+    top: -100px;
+}
+
+h1 {
+    margin: 10px;
+}
